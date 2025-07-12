@@ -141,6 +141,81 @@ body {
   .contact-clip-path-2 {
     clip-path: polygon(29% 15%, 85% 30%, 50% 100%, 10% 64%);
   }
+
+  /* Fix for undefined lg:px-15
+  .lg\:px-15 {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
+  }
+
+  .md\:mt-30 {
+    margin-top: 7.5rem;
+  }
+
+  .c-space {
+    @apply sm:px-10 px-5 lg:px-16;
+  }
+
+  .section-spacing {
+    @apply py-20 md:py-32 lg:py-40;
+  }
+
+  .exp-timeline-container {
+    @apply c-space section-spacing;
+  }
+
+  .exp-heading {
+    @apply text-heading;
+  }
+
+  .exp-entry-wrapper {
+    @apply flex justify-start pt-10 md:pt-40 md:gap-10;
+  }
+
+  .exp-entry-left {
+    @apply sticky z-40 flex flex-col items-center self-start max-w-xs md:flex-row top-40 lg:max-w-sm md:w-full;
+  }
+
+  .exp-circle-wrapper {
+    @apply absolute flex items-center justify-center w-10 h-10 rounded-full -left-[15px] bg-neutral-900;
+  }
+
+  .exp-inner-circle {
+    @apply w-4 h-4 p-2 border rounded-full bg-neutral-800 border-neutral-700;
+  }
+
+  .exp-entry-text {
+    @apply flex-col hidden gap-2 text-xl font-bold md:flex md:pl-20 md:text-4xl text-neutral-300;
+  }
+
+  .exp-entry-text .title {
+    @apply text-3xl text-neutral-400;
+  }
+
+  .exp-entry-text .job {
+    @apply text-3xl text-neutral-500;
+  }
+
+  .exp-content-right {
+    @apply relative w-full pl-20 pr-4 md:pl-4;
+  }
+
+  .exp-content-heading {
+    @apply block mb-4 text-2xl font-bold text-left text-neutral-300 md:hidden;
+  }
+
+  .exp-content-paragraph {
+    @apply mb-3 font-normal text-neutral-400;
+  }
+
+  .exp-timeline-bar-container {
+    @apply absolute md:left-1 left-1 top-0 overflow-hidden w-[2px] bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-700 to-transparent to-[99%] [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)];
+  }
+
+  .exp-timeline-progress-bar {
+    @apply absolute inset-x-0 top-0 w-[2px] bg-gradient-to-t from-purple-500 via-purple-300/50 to-transparent from-[0%] via-[10%] rounded-full;
+  } */
+   
 }
 
 .indicator-line {
@@ -167,8 +242,7 @@ body {
   }
 }
 
-/* From Uiverse.io by G4b413l */
-/* https://uiverse.io/G4b413l/tidy-walrus-92 */
+/* Uiverse loader */
 .three-body {
   --uib-size: 35px;
   --uib-speed: 0.8s;
@@ -220,8 +294,7 @@ body {
 .three-body__dot:nth-child(2)::after {
   bottom: 0;
   left: 0;
-  animation: wobble1 var(--uib-speed) infinite calc(var(--uib-speed) * -0.15)
-    ease-in-out;
+  animation: wobble1 var(--uib-speed) infinite calc(var(--uib-speed) * -0.15) ease-in-out;
 }
 
 .three-body__dot:nth-child(3) {
@@ -240,19 +313,16 @@ body {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
 
 @keyframes wobble1 {
-  0%,
-  100% {
+  0%, 100% {
     transform: translateY(0%) scale(1);
     opacity: 1;
   }
-
   50% {
     transform: translateY(-66%) scale(0.65);
     opacity: 0.8;
@@ -260,12 +330,10 @@ body {
 }
 
 @keyframes wobble2 {
-  0%,
-  100% {
+  0%, 100% {
     transform: translateY(0%) scale(1);
     opacity: 1;
   }
-
   50% {
     transform: translateY(66%) scale(0.65);
     opacity: 0.8;
