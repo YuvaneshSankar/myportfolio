@@ -2,7 +2,7 @@ import Hero from './components/Hero';
 import About from "./components/About";
 import Navbar from './components/Navbar';
 import Experiences from './components/Experiences';
-
+import Projects from './components/Projects';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
       <Hero />
       <About />
       <Experiences />
+      <Projects />
 
       {/* <section className="z-0 min-h-screen bg-blue-500"/> */}
     </main>
