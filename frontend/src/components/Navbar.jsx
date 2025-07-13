@@ -10,6 +10,7 @@ const navItems = [
   { label: "About", id: "about" },
   { label: "Experiences", id: "experiences" },
   { label: "Projects", id: "projects" },
+  { label: "Contact Me",id:"contact"},
 ];
 
 
@@ -78,12 +79,6 @@ const NavBar = () => {
           <div className="flex items-center gap-7">
             <img src="/img/logo.png" alt="logo" className="w-10" />
 
-            <Button
-              id="product-button"
-              title="Products"
-              rightIcon={<TiLocationArrow />}
-              containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1"
-            />
           </div>
 
           <div className="flex h-full items-center">

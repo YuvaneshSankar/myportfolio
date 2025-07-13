@@ -3,6 +3,8 @@ import About from "./components/About";
 import Navbar from './components/Navbar';
 import Experiences from './components/Experiences';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -18,6 +20,10 @@ const App = () => {
       <section id="projects">
         <Projects />
       </section>
+      <section id="contact">
+        <Contact />
+      </section>
+      <Footer />
     </main>
   )
 }
