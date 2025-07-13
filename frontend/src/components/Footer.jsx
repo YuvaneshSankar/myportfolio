@@ -42,6 +42,7 @@ import {
   
           <a
             className="text-center text-sm font-light hover:underline md:text-right pr-4"
+            href="#hey"
           >
             Get in Touch
           </a>
