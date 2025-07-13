@@ -20,12 +20,12 @@ const Project = ({
         onMouseLeave={() => setPreview(null)}
       >
         <div>
-          <h2 className="text-3xl font-bold text-neutral-400">{title}</h2>
+          <h2 className="text-3xl font-bold text-neutral-600">{title}</h2>
           <div className="flex flex-wrap gap-2 mt-2 text-sm text-black-400">
             {tags.map((tag) => (
               <span
                 key={tag.id}
-                className="bg-white/10 px-2 py-1 rounded-md text-xs font-large"
+                className="bg-black/10 px-2 py-1 rounded-xl text-xs font-large"
               >
                 {tag.name}
               </span>
@@ -35,7 +35,7 @@ const Project = ({
 
         <button
           onClick={() => setIsHidden(true)}
-          className="flex items-center gap-1 text-blue-400 hover:text-white transition-all"
+          className="flex items-center gap-1 text-black-400 hover:text-white transition-all font-robert-medium rounded-xl"
         >
           Read More
           <img src="img/arrowr.svg" className="w-5 h-5" />

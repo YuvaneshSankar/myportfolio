@@ -6,7 +6,9 @@ const Projects = () => {
   const [preview, setPreview] = useState(null);
 
   return (
+    
     <div className="space-y-12">
+        <h2 className="mt-20 text-center font-general text-extrabold  text-5xl text-black mb-10">Featured Projects</h2>
       {myProjects.map((project) => (
         <Project
           key={project.id}
@@ -19,14 +21,6 @@ const Projects = () => {
           setPreview={setPreview}
         />
       ))}
-
-      {preview && (
-        <img
-          src={preview}
-          alt="Preview"
-          className="fixed bottom-10 right-10 w-52 h-auto rounded shadow-lg z-40"
-        />
-      )}
     </div>
   );
 };

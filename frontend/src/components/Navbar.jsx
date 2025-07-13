@@ -6,7 +6,13 @@ import { TiLocationArrow } from "react-icons/ti";
 
 import Button from "./Button2";
 
-const navItems = ["Projects", "Skills", "Conatact Me"];
+const navItems = [
+  { label: "About", id: "about" },
+  { label: "Experiences", id: "experiences" },
+  { label: "Projects", id: "projects" },
+];
+
+
 
 const NavBar = () => {
   // State for toggling audio and visual indicator
@@ -82,17 +88,16 @@ const NavBar = () => {
 
           <div className="flex h-full items-center">
             <div className="hidden md:block">
-              {navItems.map((item, index) => (
+              {navItems.map(({label, id}) => (
                 <a
-                  key={index}
-                  href={`#${item.toLowerCase()}`}
+                  key={id}
+                  href={`#${id}`}
                   className="nav-hover-btn"
                 >
-                  {item}
+                  {label}
                 </a>
               ))}
             </div>
-
             <button
               onClick={toggleAudioIndicator}
               className="ml-10 flex items-center space-x-0.5"
