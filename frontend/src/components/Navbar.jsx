@@ -2,9 +2,9 @@ import clsx from "clsx";
 import gsap from "gsap";
 import { useWindowScroll } from "react-use";
 import { useEffect, useRef, useState } from "react";
-import { TiLocationArrow } from "react-icons/ti";
+// import { TiLocationArrow } from "react-icons/ti";
 
-import Button from "./Button2";
+// import Button from "./Button2.jsx";
 
 const navItems = [
   { label: "About", id: "about" },

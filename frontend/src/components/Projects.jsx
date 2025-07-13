@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Project from "./Project";
-import { myProjects } from "../constants";
+import Project from "./Project.jsx";
+import { myProjects } from "../constants/index.js";
 
 const Projects = () => {
   const [preview, setPreview] = useState(null);
