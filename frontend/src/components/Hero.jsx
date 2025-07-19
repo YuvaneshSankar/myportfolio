@@ -13,7 +13,7 @@ const Hero = () => {
   const [loading, setLoading] = useState(true);
   const [loadedVideos, setLoadedVideos] = useState(0);
 
-  const totalVideos = 3;
+  const totalVideos = 1;
   const nextVdRef = useRef(null);
 
   const handleVideoLoad = () => {
@@ -143,7 +143,7 @@ const Hero = () => {
 
         <div className="absolute left-0 top-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
-            <h1 className="special-font hero-heading text-bule-75">
+            <h1 className=" text-white special-font hero-heading">
               Yuva<b>n</b>esh
             </h1>
 
