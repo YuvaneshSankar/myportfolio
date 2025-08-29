@@ -111,6 +111,41 @@ export const myProjects = [
     },
     {
       id: 4,
+      title: "AlphaStack",
+      description:
+        "Developed AlphaStack, a universal AI-powered development framework that auto-scaffolds projects across tech stacks, embeds intelligent feedback loops, and evolves codebases through adaptive refinement.",
+      subDescription: [
+        "Every dev struggles with the same grind: boilerplate, setup, and endless tweaks just to get rolling.",
+        "AlphaStack flips that script—AI lays the foundation, Pydantic enforces sanity, Docker wraps it tight, and a feedback loop keeps sharpening the build. One stack to start them all.",
+      ],
+      href: "https://github.com/HyperKuvid-Labs/alpha-stack",
+      logo: "",
+      image: "/img/logos/frugalsot.pngw",
+      tags: [
+        {
+          id: 1,
+          name: "Python",
+          path: "/img/logos/python.svg",
+        },
+        {
+          id: 2,
+          name: "Google-GenerativeAI,",
+          path: "/img/logos/google.svg",
+        },
+        {
+          id: 3,
+          name: "Pydantic,",
+          path: "/img/logos/pydantic,.svg",
+        },
+        {
+          id: 4,
+          name: "Docker",
+          path: "/img/logos/docker.svg",
+        },
+      ],
+    },
+    {
+      id: 5,
       title: "GIDEON",
       description:
         "Built an emotion-aware LLM chat interface powered by both local (Ollama) and cloud-based models via API keys enabling empathetic, context-aware conversations. Developed the Alpha<Stack> agent to automate full-stack and blockchain project creation, cutting dev time from months to weeks(60%).Integrated a prompt-based image generation tool for real-time visual output and UX enrichment.",
