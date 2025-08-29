@@ -81,6 +81,36 @@ export const myProjects = [
     },
     {
       id: 3,
+      title: "AlphaDesign",
+      description:
+        "Built AlphaDesign, an RL + genetic algorithm pipeline for F1 front wing optimization, merging parametric CAD modeling, automated mesh generation, and CFD-in-the-loop feedback to evolve aerodynamics with precision.",
+      subDescription: [
+        "It started with a question: could code, not carbon fiber, sculpt the perfect front wing?",
+        "That curiosity became AlphaDesign—a system where reinforcement learning whispers strategies, genetics mutates shapes, and CFD plays judge, chasing wings that slice air cleaner and grip corners harder.",
+      ],
+      href: "https://github.com/HyperKuvid-Labs/AlphaDesign",
+      logo: "",
+      image: "/img/logos/frugalsot.pngw",
+      tags: [
+        {
+          id: 1,
+          name: "Python",
+          path: "/img/logos/python.svg",
+        },
+        {
+          id: 2,
+          name: "RL",
+          path: "/img/logos/RL.png",
+        },
+        {
+          id: 3,
+          name: "Numpy-STL",
+          path: "/img/logos/numpy.svg",
+        },
+      ],
+    },
+    {
+      id: 4,
       title: "GIDEON",
       description:
         "Built an emotion-aware LLM chat interface powered by both local (Ollama) and cloud-based models via API keys enabling empathetic, context-aware conversations. Developed the Alpha<Stack> agent to automate full-stack and blockchain project creation, cutting dev time from months to weeks(60%).Integrated a prompt-based image generation tool for real-time visual output and UX enrichment.",
