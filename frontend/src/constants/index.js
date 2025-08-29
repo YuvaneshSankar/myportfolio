@@ -135,7 +135,7 @@ export const myProjects = [
         {
           id: 3,
           name: "Pydantic,",
-          path: "/img/logos/pydantic.svg",
+          path: "/img/logos/pydantic.png",
         },
         {
           id: 4,
